@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- The about page to explain who I am -->
+    <html lang="en">
+        <head>
+            <title>Christian Sodano - About </title> <!-- This appears in the browser tab-->
+
+            <meta charset="utf-8">    
+
+            <meta name="viewport" content="width=device-width, 
+                initial-scale-1, shrink-to-fit=no">
+
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+                <!-- Loading Bootstrap. Have to load this before my stylesheet, using this to use a carousel from bootstrap's documentation-->
+
+            
+            <link rel="stylesheet" href="../css/stylesheet.css">
+        </head>
+        <body>
+        
+    
+            <div class = "about_grid_container">
+                    <div class="about_name">
+                        <div class="about_name_text">Christian Sodano</div>
+                    </div>
+                    <div class="about_icons">
+                        <a class="nav_icon" href="../index.html">
+                            <img class="icon_image non_current" src="../images/icons8-home-500.png" alt="An icon of a house indicating to navigate to the home page.">
+                        </a>
+                        <a class="nav_icon " href="about.html">
+                            <img class="icon_image" src="../images/icons8-about-480.png" alt="An icon of an about symbol indicating that is the page you are currently viewing">
+                            
+                        </a>
+                        
+                        <a class="nav_icon" href="cv.html"> 
+                            <img class="icon_image non_current" src="../images/icons8-cv-100.png" alt="An icon of a CV indicating it's a link to navigate to that page.">
+                        </a>
+                        <a class="nav_icon projects" href="projects.html">
+                            <img class="icon_image non_current" src="../images/icons8-microscope-100.png" alt="An icon of a microscope indicating it's a link to navigate to the projects page.">
+                        </a>
+                    </div>
+            
+
+                    <h1 class="about_title">
+                        About
+                    </h1>
+
+                    
+                    <div class="about_content">
+                        I want to improve the lives of people with
+                        severe mental illness through research. I
+                        draw from my lived experience with
+                        bipolar disorder to focus on answering
+                        those questions that matter most to
+                        patients. Particularly, I want to develop
+                        new and improve existing nonpharmacological treatments. At the
+                        moment. I am exploring non-invasive brain
+                        stimulation as a possible treatment for
+                        illnesses like depression, anxiety. and
+                        schizophrenia.
+                        <br>
+                        <br>
+                        I also care deeply about science
+                        communication and empowering the
+                        public to make informed decisions about
+                        their psychiatric care. as well as to reduce
+                        harm of psychiatric crises in adolescents
+                        and youth.
+
+                
+                    </div>
+
+                    <div class="about_links_title">
+                        Links
+                    </div>
+                        <div class="about_links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/christiansodano"> LinkedIn </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.frohlichlab.org/">Lab Website</a>
+                                </li>
+                              <li>
+                                    <a href="http://www.carolinaneurostimulation.org/">Carolina Center for Neurostimulation</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    <div class="about_gallery">
+                        <!-- THIS IS CODE FROM https://getbootstrap.com/docs/4.0/components/carousel/, I customized the colors and the transition of clicking the back and forward buttons
+                        , as well as the sizing of the image and gave a stripe of my primary background color horizontally enclosing the carousel, and I removed it at very small screen sizes
+                        as it didn't look very good, since the padding would cut off too much of the image. So at small screen sizes the carousel is replaced with a standard gallery-->
+                        
+                        <div id="carouselWithInterval" class="carousel slide pointer-event" data-bs-ride="carousel">
+                            <div class="carousel-inner carousel_container_custom">
+                              <div class="carousel-item  carousel_item_custom active" data-bs-interval="10000">
+                                <img src="../images/IMG_5507.JPG" class="d-block w-100  carousel_image image_custom" alt="an image of a few brain scans on a screen">
+                              </div>
+                              <div class="carousel-item carousel_item_custom" data-bs-interval="2000">
+                                <img src="../images/IMG_5611.JPG" class="d-block w-100 carousel_image image_custom" alt="An image of me wearing a headband that lets me track brain waves at home">
+                              </div>
+                              <div class="carousel-item carousel_item_custom">
+                                <img src="../images/Me-Justin-Hadden-TMS-Chair-1-22-23.jpg" class="d-block w-100 carousel_image image_custom" alt="An image of me with coworkers performing TMS">
+                              </div>
+                              <div class="carousel-item carousel_item_custom">
+                             <img src="../images/tACS_Training_Me_With_Electrodes_On_1-20-23_220651658.jpg" class="d-block w-100 carousel_image image_custom image_custom_tACS" alt="An image of me with electrodes on my head giving two thumbs up"> 
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev previous_button prev_button_custom" href="#carouselWithInterval" role="button" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next next_button" href="#carouselWithInterval" role="button" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+
+
+                          <div class="small_screen_image_gallery">
+                            <img src="../images/IMG_5507.JPG" alt="an image of a few brain scans on a screen">
+                            <img src="../images/IMG_5611.JPG" alt="an image of me wearing an at-home brain wave recording device">
+                            <img src="../images/Me-Justin-Hadden-TMS-Chair-1-22-23.jpg" alt="an image of me and some coworkers performing TMS">
+                            <img src="../images/tACS_Training_Me_With_Electrodes_On_1-20-23_220651658.jpg" alt="an image of me with electrodes on my head giving two thumbs up">
+                        </div>
+    
+                    </div>
+
+
+                    
+                    
+                        <footer class="about_icons_footer">
+                            <a class="nav_icon" href="../index.html">
+                                <img class="icon_image " src="../images/icons8-home-500.png" alt="An icon of a house indicating to navigate to the home page.">
+                            </a>
+                            <a class="nav_icon" href="cv.html"> 
+                                <img class="icon_image " src="../images/icons8-cv-100.png" alt="An icon of a CV indicating it's a link to navigate to that page.">
+                            </a>
+                            <a class="nav_icon" href="projects.html">
+                                <img class="icon_image " src="../images/icons8-microscope-100.png" alt="An icon of a microscope indicating it's a link to navigate to the projects page.">
+                            </a>
+                        </footer>
+
+                   
+                    
+            </div>
+        
+            
+             <!-- From the starter website here: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        </body>

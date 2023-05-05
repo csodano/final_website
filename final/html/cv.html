@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- The cv page to show my cv-->
+    <html lang="en">
+        <head>
+            <title>Christian Sodano - CV </title> <!-- This appears in the browser tab-->
+
+            <meta charset="utf-8">    
+
+            <meta name="viewport" content="width=device-width, 
+                initial-scale-1, shrink-to-fit=no">
+
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+                <!-- Loading Bootstrap. Have to load this before my stylesheet-->
+
+            
+            <link rel="stylesheet" href="../css/stylesheet.css">
+        </head>
+        <body>
+
+            <div class="cv_grid_container">
+
+                <div class="cv_name">  
+                    <div class="cv_name_text">Christian Sodano</div>
+                </div>
+
+                <div class="cv_nav_icons"> 
+                    <a class="nav_icon" href="../index.html">
+                        <img class="icon_image non_current" src="../images/icons8-home-500.png" alt="An icon of a house indicating to navigate to the home page.">
+                    </a>
+                    <a class="nav_icon " href="about.html">
+                        <img class="icon_image non_current" src="../images/icons8-about-480.png" alt="An icon of an about symbol indicating that is the page you are currently viewing">
+                        
+                    </a>
+                    
+                    <a class="nav_icon" href="cv.html">
+                        <img class="icon_image " src="../images/icons8-cv-100.png" alt="An icon of a CV symbol that's highlighted indicating it's a link to navigate to the page you are currently on.">
+                    </a>
+                    <a class="nav_icon projects" href="projects.html">
+                        <img class="icon_image non_current" src="../images/icons8-microscope-100.png" alt="An icon of a microscope indicating it's a link to navigate to the projects page.">
+                    </a>
+                </div>
+
+
+                <h1 class="cv_title">
+                    CV
+                </h1>
+
+
+                <div class="cv_icons"> 
+                    <a class="nav_icon" href="../media/cv_as_of_4_17_2023.pdf"> <!-- got help here from https://www.w3docs.com/snippets/html/how-to-embed-pdf-in-html.html-->
+                        <img class="icon_image cv_images" src="../images/icons8-share-arrow-squared-512.png" alt="An icon of a square with an arrow pointing out of it indicated to click on it to open this document in a new page.">
+                    </a>
+                    <a class="nav_icon " href="../media/cv_as_of_4_17_2023.pdf" download = "Christian_Sodano_CV_as_of_4_17_2023"> <!--I found out how to do this by reading this webpage: https://www.javatpoint.com/download-pdf-file-using-html#:~:text=With%20the%20use%20of%20the,user%20clicks%20on%20the%20hyperlink. -->
+                        <img class="icon_image cv_images " src="../images/icons8-download-96.png" alt="An icon indicating that clicking on this button will start a download of the CV document below to your computer.">
+                    </a>
+                </div>
+
+                 <div class="cv_printout_container">
+                        <!--"#viewFitH to help it fit in the viewport of the embed, I found help here: https://stackoverflow.com/questions/20562543/zoom-to-fit-pdf-embedded-in-html", also how to remove the toolbar for cleaner look (toolbar=0)-->
+                        <!-- I found how to embed a pdf from here: https://tinytip.co/tips/html-pdf-params/-->
+                        <iframe class="cv_printout" src="../media/cv_as_of_4_17_2023.pdf#view=FitH&toolbar=0" aria-label="A printout of Christian's CV embedded into the webpage"></iframe> <!-- found help from the axelinter here for accessibility alt arialabel here https://dequeuniversity.com/rules/axe/4.7/object-alt?application=axe-linter-->
+                    </div> 
+
+                <footer class="cv_icons_footer">
+                    <a class="nav_icon home" href="../index.html">
+                        <img class="icon_image " src="../images/icons8-home-500.png" alt="An icon of a house indicating to navigate to the home page.">
+                    </a>
+                   <a class="nav_icon" href="about.html"> 
+                        <img class="icon_image " src="../images/icons8-about-480.png" alt="An icon of an about symbol indicating it's a link to navigate to the about page.">
+                    </a>
+                    <a class="nav_icon" href="projects.html">
+                        <img class="icon_image " src="../images/icons8-microscope-100.png" alt="An icon of a microscope indicating it's a link to navigate to the projects page.">
+                    </a>
+                </footer>
+
+
+            </div>
+
+
+
+
+        <!-- From the starter website here: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </body>
